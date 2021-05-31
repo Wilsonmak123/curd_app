@@ -1,0 +1,42 @@
+morgan --> record the http record
+
+ejs --> use javascript code generate html
+
+bodyparser -->  request bodies in a middleware before your handlers,  available under the req.body property.
+
+dotenv --> load every env variable when the program starts
+
+mongoose --> mongo package
+
+axios --> handle get/ post request
+
+
+
+
+views --> display html files
+
+
+
+MVC 
+
+view --> view
+
+controller --> server/controller, deal with user request for resource from server
+
+model --> server/model , work with mongodb data
+
+
+
+
+
+
+
+app.use(path,callback) callback can be target of route, or function
+app.get(path,callback) callback can only be function
+
+
+
+_header.ejs is a partila file of index
+
+
+The <thead> tag is used to group header content in an HTML table.
